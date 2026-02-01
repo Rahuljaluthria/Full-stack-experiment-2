@@ -14,30 +14,29 @@ The entire project is implemented using **HTML, CSS, and JavaScript** and is hos
 
 ---
 
-## 📁 Project Structure
+# Project Structure 
 
 experiment-2/
 │
-├── index.html # Main landing page (Experiment 2)
-├── style.css # Common styles for main page
+├── index.html              # Main landing page for Experiment 2
+├── style.css               # Styles for the main page
 │
-├── exp2.1/
-│ ├── index.html # Experiment 2.1
-│ ├── style.css
-│ └── script.js
+├── exp2.1/                 # Experiment 2.1 – Live Character Counter
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
-├── exp2.2/
-│ ├── index.html # Experiment 2.2
-│ ├── style.css
-│ └── script.js
+├── exp2.2/                 # Experiment 2.2 – Dynamic Product Filter
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
-├── exp2.3/
-│ ├── index.html # Experiment 2.3
-│ ├── style.css
-│ └── script.js
+├── exp2.3/                 # Experiment 2.3 – Interactive SVG Drawing Tool
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
-└── README.md
-
+└── README.md               # Project documentation
 
 ---
 
