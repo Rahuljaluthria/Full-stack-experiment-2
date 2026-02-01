@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #3a1356;
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.subtitle {
+  margin: 10px 0 40px;
+  opacity: 0.8;
+}
+
+.exp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  color: #111;
+  padding: 30px;
+  border-radius: 18px;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}

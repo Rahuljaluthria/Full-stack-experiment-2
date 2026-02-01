@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #3a1356;
+  color: white;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.subtitle {
+  margin: 10px 0 20px;
+  opacity: 0.85;
+}
+
+svg {
+  background: white;
+  border-radius: 12px;
+  cursor: crosshair;
+}
+
+.hint {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 30px;
+  color: #c7d2fe;
+  text-decoration: none;
+}

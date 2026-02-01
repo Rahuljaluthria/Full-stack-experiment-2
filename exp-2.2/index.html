@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Product Filter</h1>
+
+    <div class="filter-box">
+      <label>Filter by:</label>
+      <select id="filter" onchange="filterProducts()">
+        <option value="all">All Products</option>
+        <option value="electronics">Electronics</option>
+        <option value="clothing">Clothing</option>
+      </select>
+    </div>
+
+    <div class="products" id="productList">
+
+      <div class="card electronics">
+        <h2>Wireless Headphones</h2>
+        <p class="price">$129.99</p>
+        <span class="tag electronics-tag">electronics</span>
+      </div>
+
+      <div class="card clothing">
+        <h2>Cotton T-Shirt</h2>
+        <p class="price">$24.99</p>
+        <span class="tag clothing-tag">clothing</span>
+      </div>
+
+      <div class="card electronics">
+        <h2>Bluetooth Speaker</h2>
+        <p class="price">$89.99</p>
+        <span class="tag electronics-tag">electronics</span>
+      </div>
+
+      <div class="card clothing">
+        <h2>Denim Jeans</h2>
+        <p class="price">$59.99</p>
+        <span class="tag clothing-tag">clothing</span>
+      </div>
+
+    </div>
+    
+    <div style="text-align: center;">
+      <a href="../index.html" class="back">⬅ Back to Experiment 2</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
