@@ -97,7 +97,7 @@ Experiment 2.3
 
 # Live Deployment
 
-https://24bcy70054-experiment-2.netlify.app/
+https://24bcy70054-experiment-2.vercel.app/
 
 🛠 Technologies Used
 HTML5
