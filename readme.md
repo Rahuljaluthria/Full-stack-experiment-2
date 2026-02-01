@@ -95,12 +95,9 @@ Experiment 2.2
 
 Experiment 2.3
 
-# Deployment
-The project can be deployed using Netlify or GitHub Pages as a static website.
+# Live Deployment
 
-No build command required
-
-Publish directory: root (/)
+https://24bcy70054-experiment-2.netlify.app/
 
 🛠 Technologies Used
 HTML5
